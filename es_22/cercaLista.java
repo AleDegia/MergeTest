@@ -8,7 +8,7 @@ public class cercaLista {
 
         List<String> list = new ArrayList<String>();
 
-        System.out.println("Inserisci gli elementi della lista( inserisci \"fine\" per terminare l'inserimento)");
+        System.out.println("Inserisci gli elementi della lista (inserisci \"fine\" per terminare l'inserimento)");
         String element = input.nextLine();
 
         while (!element.equals("fine")) {
