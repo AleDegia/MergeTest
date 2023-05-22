@@ -6,23 +6,23 @@ public class cercaLista {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        List<String> lista = new ArrayList<String>();
+        List<String> list = new ArrayList<String>();
 
         System.out.println("Inserisci gli elementi della lista( inserisci \"fine\" per terminare l'inserimento)");
-        String elemento = input.nextLine();
+        String element = input.nextLine();
 
-        while (!elemento.equals("fine")) {
-            lista.add(elemento);
-            elemento = input.nextLine();
+        while (!element.equals("fine")) {
+            list.add(element);
+            element = input.nextLine();
         }
 
         System.out.println("Inserisci l'elemento da cercare: ");
-        String elementoCercato = input.nextLine();
+        String searchedElement = input.nextLine();
 
-        int indice = lista.indexOf(elementoCercato);
+        int index = list.indexOf(searchedElement);
 
-        if (indice != -1) {
-            System.out.println("L'elemento si trova all'indice " + indice + " della lista.");
+        if (index != -1) {
+            System.out.println("L'elemento si trova all'indice " + index + " della lista.");
 
         } else {
             System.out.println("L'elemento non è presente nella lista");
