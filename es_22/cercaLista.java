@@ -26,3 +26,4 @@ public class cercaLista {
         System.out.println("L'elemento non è presente nella lista");
         }
 }
+// dwadaw
